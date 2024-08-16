@@ -45,53 +45,69 @@
 	};
 
 	let magnifier;
+	let isInsideImage = false;
 
-	function handleMouseEnter(event) {
+	function handleMouseEnter() {
+		isInsideImage = true;
 		magnifier.style.display = 'block';
 	}
 
 	function handleMouseLeave() {
-		magnifier.style.display = 'none';
+		isInsideImage = false;
 	}
 
 	function handleMouseMove(event) {
-		const img = event.target;
+		const img = document.querySelector('.image-container img'); // Get the image element
 		const { top, left, width, height } = img.getBoundingClientRect();
-		const x = event.clientX - left;
-		const y = event.clientY - top;
+		let x = event.clientX - left;
+		let y = event.clientY - top;
 
-		const xPercent = (x / width) * 100;
-		const yPercent = (y / height) * 100;
+		// Update the background position percentages for the zoomed background
+		let xPercent = (x / width) * 100;
+		let yPercent = (y / height) * 100;
 
-		// Prevent magnifier from overflowing the image
-		const magnifierRadius = magnifier.offsetWidth / 2;
-		let magnifierX = x - magnifierRadius;
-		let magnifierY = y - magnifierRadius;
+		// Constrain magnifier within the image for x-axis and y-axis
+		let magnifierX = x - magnifier.offsetWidth / 2;
+		let magnifierY = y - magnifier.offsetHeight / 2;
 
-		// Constrain the magnifier within the image boundaries
 		if (magnifierX < 0) magnifierX = 0;
-		if (magnifierY < 0) magnifierY = 0;
 		if (magnifierX + magnifier.offsetWidth > width) magnifierX = width - magnifier.offsetWidth;
+		if (magnifierY < 0) magnifierY = 0;
 		if (magnifierY + magnifier.offsetHeight > height) magnifierY = height - magnifier.offsetHeight;
+
+		// Ensure that the magnifier moves freely but the background image position stops when leaving the image
+		if (x < 0 || x > width) {
+			xPercent = x < 0 ? 0 : 100; // Lock the background to the edges horizontally
+		}
+		if (y < 0 || y > height) {
+			yPercent = y < 0 ? 0 : 100; // Lock the background to the edges vertically
+		}
 
 		// Position the magnifier
 		magnifier.style.left = `${magnifierX}px`;
 		magnifier.style.top = `${magnifierY}px`;
 
-		// Set the background of the magnifier to be a zoomed-in portion of the image
+		// Update the zoomed-in background image position, locking it when outside
 		magnifier.style.backgroundImage = `url('${img.src}')`;
 		magnifier.style.backgroundPosition = `${xPercent}% ${yPercent}%`;
+	}
+
+	function handleGlobalMouseMove(event) {
+		handleMouseMove(event);
 	}
 </script>
 
 <div
 	class="flex flex-col lg:justify-between items-center lg:items-start w-full h-screen lg:flex-row-reverse"
+	on:mousemove={handleGlobalMouseMove}
+	on:mouseenter={handleMouseEnter}
+	on:mouseleave={handleMouseLeave}
 >
 	<div class="lg:hidden flex flex-row gap-4 pt-2 md:pt-4 items-center">
 		<button class="btn variant-filled-secondary rounded-md shadow-xl">
-			<a href="http://www.mike-wilks.com/index.htm" target="_blank" rel="noreferrer"
-				><strong>M</strong>ike <strong>W</strong>ilks</a
-			>
+			<a href="http://www.mike-wilks.com/index.htm" target="_blank" rel="noreferrer">
+				<strong>M</strong>ike <strong>W</strong>ilks
+			</a>
 		</button>
 		<h3 class="h3 whitespace-nowrap">Ultimate Alphabet</h3>
 	</div>
@@ -101,8 +117,6 @@
 				src="wilks2.jpg"
 				alt=""
 				class="rounded-lg max-h-full w-auto object-top object-contain shadow-lg cursor-none"
-				on:mousemove={handleMouseMove}
-				on:mouseenter={handleMouseEnter}
 			/>
 			<div bind:this={magnifier} class="magnifier rounded-lg"></div>
 		</div>
@@ -192,7 +206,7 @@
 	.image-container {
 		position: relative;
 		display: inline-block;
-		overflow: hidden; /* This prevents the magnifier from overflowing */
+		overflow: hidden;
 	}
 
 	.magnifier {
