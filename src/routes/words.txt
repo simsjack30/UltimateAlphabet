@@ -1,0 +1,102 @@
+J,Tenth letter of the alphabet
+J,Braille alphabet
+J,International signal flag
+J,Morse code alphabet
+J,Semaphore alphabet
+JABIRU,Variety of bird
+JABOT,Decorative frill on a shirtfront
+JACAMAR,Variety of bird
+JACANA,Variety of bird
+JACK,Court playing card
+JACK CHAIN,Chain with twisted links
+JACK DEMPSEY,Variety of fish
+JACK-IN-THE-BOX,Type of child's toy
+JACK-KNIFE,Type of folding pocketknife
+JACK-LADDER,Type of nautical ladder
+JACK-O'-LANTERN,Grotesque lantern made from a pumpkin
+JACK-RABBIT,Variety of animal
+JACKAL,Variety of animal
+JACKBOOT,Style of tall military boot
+JACKDAW,Variety of bird
+JACKET,Short coat
+JACKET,Book wrapper
+JACOB SHEEP,Variety of domestic animal
+JAEGER,Variety of seabird
+JAG,Slash in garment revealing material beneath
+JAGGED,Edge of a garment irregularly cut
+JAGUAR,Variety of animal
+JAGUARUNDI,Variety of animal
+JAM,Fruit preserve; jelly
+JAMAICA,Flag of Caribbean island country
+JAMBEAU,Armor protecting the leg
+JANISSARY,Type of Turkish soldier
+JANUS,Ancient Roman two-faced god
+JAPAN,Flag of East Asian island country
+JAPANESE,Native of Japan
+JAPANESE CHIN,Breed of dog
+JAPANESE SPITZ,Breed of dog
+JAR,Cylindrical glass container
+JARDINIÈRE,Ornamental flowerpot on a stand
+JASPERWARE,Type of unglazed stoneware pottery
+JASTROW FIGURE,Type of optical illusion (lower portion seems bigger than upper, but both are the same size)
+JAVA SPARROW,Variety of bird
+JAVELIN,Light throwing-spear
+JAVELIN,Variety of fish
+JAW,Mouth and lower face area
+JAWLINE,Outline of lower jaw
+JAY,Variety of bird
+JEANS,Style of denim work trousers
+JEEP,Type of light military truck
+JELLY,Fruit preserve; jam
+JERBOA,Variety of animal; desert rat
+JERKIN,Short, close-fitting leather jacket
+JERRY CAN,Water or petrol container
+JESS,Short strap securing bird
+JESTER,Buffoon; fool
+JESUS,Founder of Christianity
+JET,Jet-propelled aircraft
+JETSAM,Things jettisoned from ship
+JETTY,Landing stage
+JEW,Member of the Jewish people and religion
+JEWEL,Precious stone
+JEWEL BUTTERFLY,Variety of butterfly
+JEWELERY,Ornament set with previous stones
+JEWISH YEAR,Year reckoned by the Jewish calendar (5744 = year beginning 8 September 1983)
+JEW'S HARP,Type of musical instrument
+JIB,Sail set between foremast and bowsprit
+JIB,Lifting arm of crane
+JIBSTAY,Stay on which the job is set
+JIBUTI,Flag of East African country
+JIGSAW PUZZLE,Puzzle made from interlocking pieces
+JINGLING JOHNNY,Type of musical instrument
+JOCKEY,Professional racehorse rider
+JOCKEY CAP,Cap worn by jockey
+JOCULATOR,Jester
+JODHPURS,Riding breeches
+JOHN BULL,Personification of England
+JOHN DORY,Cariety of fish
+JOINT,Joining structure of two pieces of wood
+JOINT,Drugged cigarette
+JOKER,Odd card in pack of playing cards
+JOLLY ROGER,Pirate flag
+JONGLEUR,Juggler
+JORDAN,Flag of southwest Asian country
+JOSS STICK,Incense stick
+JOTTER,Notepad
+JOUGS,Iron-collared instrument of punishment
+JOUSTING,Formal horseback combat without lance
+JOUSTER,One engaged in jousting
+JOWL,Flabby flesh around jaws
+JUDGE,Legal official
+JUG,Vessel for containing liquids
+JUGGLER,Performer of tricks of manual dexterity
+JUGGLING,Tricks performed by a juggler
+JUMBUCK,A sheep
+JUNGLE,Densely overgrown tropical forest
+JUNGLE FOWL,Variety of bird
+JUNGLE GLORY,Variety of butterfly
+JUNK,Type of Chinese vessel
+JUPITER,Largest planet of the solar system
+JUPITER,Astrological symbol for Jupiter
+JUSTICE,Personification of justice
+JUVENILE,Young person
