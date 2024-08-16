@@ -43,6 +43,45 @@
 		target: 'popupHover',
 		placement: 'top'
 	};
+
+	let magnifier;
+
+	function handleMouseEnter(event) {
+		magnifier.style.display = 'block';
+	}
+
+	function handleMouseLeave() {
+		magnifier.style.display = 'none';
+	}
+
+	function handleMouseMove(event) {
+		const img = event.target;
+		const { top, left, width, height } = img.getBoundingClientRect();
+		const x = event.clientX - left;
+		const y = event.clientY - top;
+
+		const xPercent = (x / width) * 100;
+		const yPercent = (y / height) * 100;
+
+		// Prevent magnifier from overflowing the image
+		const magnifierRadius = magnifier.offsetWidth / 2;
+		let magnifierX = x - magnifierRadius;
+		let magnifierY = y - magnifierRadius;
+
+		// Constrain the magnifier within the image boundaries
+		if (magnifierX < 0) magnifierX = 0;
+		if (magnifierY < 0) magnifierY = 0;
+		if (magnifierX + magnifier.offsetWidth > width) magnifierX = width - magnifier.offsetWidth;
+		if (magnifierY + magnifier.offsetHeight > height) magnifierY = height - magnifier.offsetHeight;
+
+		// Position the magnifier
+		magnifier.style.left = `${magnifierX}px`;
+		magnifier.style.top = `${magnifierY}px`;
+
+		// Set the background of the magnifier to be a zoomed-in portion of the image
+		magnifier.style.backgroundImage = `url('${img.src}')`;
+		magnifier.style.backgroundPosition = `${xPercent}% ${yPercent}%`;
+	}
 </script>
 
 <div
@@ -56,13 +95,19 @@
 		</button>
 		<h3 class="h3 whitespace-nowrap">Ultimate Alphabet</h3>
 	</div>
-	<div class="p-2 md:p-4 lg:h-full max-h-full">
-		<img
-			src="wilks2.jpg"
-			alt=""
-			class="rounded-lg max-h-full w-auto object-top object-contain shadow-lg"
-		/>
+	<div class="p-2 md:p-4 h-full">
+		<div class="lg:h-full max-h-full image-container">
+			<img
+				src="wilks2.jpg"
+				alt=""
+				class="rounded-lg max-h-full w-auto object-top object-contain shadow-lg cursor-none"
+				on:mousemove={handleMouseMove}
+				on:mouseenter={handleMouseEnter}
+			/>
+			<div bind:this={magnifier} class="magnifier rounded-lg"></div>
+		</div>
 	</div>
+
 	<div
 		class="flex flex-col m-2 md:m-4 w-full lg:w-auto lg:items-start lg:justify-start items-center gap-4"
 	>
@@ -147,18 +192,18 @@
 	.image-container {
 		position: relative;
 		display: inline-block;
+		overflow: hidden; /* This prevents the magnifier from overflowing */
 	}
 
 	.magnifier {
 		display: none;
 		position: absolute;
-		width: 150px;
-		height: 150px;
-		border-radius: 50%;
-		border: 3px solid rgba(0, 0, 0, 0.5);
+		width: 300px;
+		height: 300px;
+		border: 4px solid rgba(0, 0, 0, 0.5);
 		background-repeat: no-repeat;
-		background-size: 200%; /* This controls the zoom level */
-		pointer-events: none; /* Prevent it from interfering with other events */
+		background-size: 500%;
+		pointer-events: none;
 		z-index: 100;
 	}
 </style>
