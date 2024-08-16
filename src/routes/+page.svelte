@@ -1,22 +1,19 @@
 <script lang="ts">
 	import PocketBase from 'pocketbase';
-	import type { PopupSettings } from '@skeletonlabs/skeleton';
 	import { Check, SearchX, SearchCheck, Search } from 'lucide-svelte';
+	import { onMount } from 'svelte';
+	import { RangeSlider } from '@skeletonlabs/skeleton';
 
 	const pb = new PocketBase('https://pocketbase-production-c5bc.up.railway.app');
 	export let data;
 
 	let records = [...data.records]; // Create a copy of data.records
 	let searchTerm = '';
-	let guessedItems = [];
+	let guessedItems: any = [];
 
-	function normalizeString(str) {
+	function normalizeString(str: any) {
 		return str.toLowerCase().replace(/[^a-z0-9]/gi, '');
 	}
-
-	$: filteredRecords = records.filter((record) =>
-		normalizeString(record.item).includes(normalizeString(searchTerm))
-	);
 
 	function handleGuess() {
 		const normalizedSearchTerm = normalizeString(searchTerm);
@@ -31,33 +28,33 @@
 		}
 	}
 
-	function handleKeyDown(event) {
+	function handleKeyDown(event: any) {
 		if (event.key === 'Enter') {
 			handleGuess();
 		}
 	}
 
-	let magnifier;
+	let magnifier: any;
 	let isInsideImage = false;
 	let mag = true;
 
 	function handleMouseEnter() {
-		isInsideImage = true;
-		magnifier.style.display = 'block';
+		if (mag) {
+			isInsideImage = true;
+			magnifier.style.display = 'block';
+		}
 	}
 
-	function handleMouseMove(event) {
+	function handleMouseMove(event: any) {
 		if (mag) {
-			const img = document.querySelector('.image-container img'); // Get the image element
+			const img = document.querySelector('.image-container img');
 			const { top, left, width, height } = img.getBoundingClientRect();
 			let x = event.clientX - left;
 			let y = event.clientY - top;
 
-			// Update the background position percentages for the zoomed background
 			let xPercent = (x / width) * 100;
 			let yPercent = (y / height) * 100;
 
-			// Constrain magnifier within the image for x-axis and y-axis
 			let magnifierX = x - magnifier.offsetWidth / 2;
 			let magnifierY = y - magnifier.offsetHeight / 2;
 
@@ -67,25 +64,22 @@
 			if (magnifierY + magnifier.offsetHeight > height)
 				magnifierY = height - magnifier.offsetHeight;
 
-			// Ensure that the magnifier moves freely but the background image position stops when leaving the image
 			if (x < 0 || x > width) {
-				xPercent = x < 0 ? 0 : 100; // Lock the background to the edges horizontally
+				xPercent = x < 0 ? 0 : 100;
 			}
 			if (y < 0 || y > height) {
-				yPercent = y < 0 ? 0 : 100; // Lock the background to the edges vertically
+				yPercent = y < 0 ? 0 : 100;
 			}
 
-			// Position the magnifier
 			magnifier.style.left = `${magnifierX}px`;
 			magnifier.style.top = `${magnifierY}px`;
 
-			// Update the zoomed-in background image position, locking it when outside
 			magnifier.style.backgroundImage = `url('${img.src}')`;
 			magnifier.style.backgroundPosition = `${xPercent}% ${yPercent}%`;
 		}
 	}
 
-	function handleGlobalMouseMove(event) {
+	function handleGlobalMouseMove(event: any) {
 		handleMouseMove(event);
 	}
 
@@ -95,6 +89,25 @@
 			magnifier.style.display = 'block';
 		}
 	}
+
+	onMount(() => {
+		if (mag) {
+			const img = document.querySelector('.image-container img');
+			if (img) {
+				const { left, top, width, height } = img.getBoundingClientRect();
+
+				// Simulate a mouse movement to the center of the image
+				const fakeEvent = {
+					clientX: left + width / 2,
+					clientY: top + height / 2
+				};
+
+				handleMouseMove(fakeEvent); // Call the existing function with synthetic values
+			}
+		}
+	});
+
+	let value = 500;
 </script>
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
@@ -112,8 +125,8 @@
 		<h3 class="h3 whitespace-nowrap">Ultimate Alphabet</h3>
 	</div>
 
-	<div class="p-2 md:p-4 h-full">
-		<div class="lg:h-full max-h-full image-container">
+	<div class="p-2 md:p-4 h-auto md:h-full">
+		<div class="md:h-full max-h-full image-container">
 			<img
 				src="wilks2.jpg"
 				alt=""
@@ -122,15 +135,19 @@
 					: 'cursor-auto'}"
 			/>
 			<div class="hidden lg:flex">
-				{#if mag}
-					<div bind:this={magnifier} class="magnifier rounded-lg"></div>
-				{/if}
+				<div class={mag ? 'flex' : 'hidden'}>
+					<div
+						style="background-size:{value}%"
+						bind:this={magnifier}
+						class="magnifier rounded-lg"
+					></div>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<div
-		class="flex flex-col m-2 md:m-4 w-full lg:w-[40rem] lg:items-start lg:justify-start items-center gap-4"
+		class="flex flex-col m-2 md:m-4 w-full lg:w-[30rem] lg:items-start lg:justify-start items-center gap-4"
 	>
 		<div class="hidden lg:flex flex-row gap-4 items-center">
 			<button class="btn variant-filled-secondary shadow-xl rounded-md">
@@ -141,7 +158,7 @@
 			<h3 class="h3 whitespace-nowrap">Ultimate Alphabet</h3>
 		</div>
 
-		<div class="lg:flex hidden">
+		<div class="lg:flex hidden flex-row items-center gap-4">
 			<button
 				class="icon btn {mag ? 'variant-ghost' : 'variant-filled-secondary'} rounded-md"
 				on:click={handleClick}
@@ -152,6 +169,8 @@
 					<SearchCheck />
 				{/if}
 			</button>
+			<RangeSlider bind:value min={400} max={1000} step={5} class="w-64 {mag ? '' : 'hidden'} "
+			></RangeSlider>
 		</div>
 
 		<div class="flex flex-row gap-2 md:gap-4">
@@ -169,9 +188,10 @@
 		{#if guessedItems.length === 0}
 			<h5 class="w-5/6 h5 md:w-1/2 lg:w-96">
 				Find as many words in the picture that start with the letter J. Type your answers in the box
-				and submit by pressing Enter or the submit button. Time starts when you make your first
-				successful guess.
+				and submit by pressing Enter or the submit button.
 			</h5>
+			<!-- Time starts when you make your first
+				successful guess. -->
 		{/if}
 		<div class="flex justify-start items-start">
 			<ul
@@ -187,44 +207,6 @@
 	</div>
 </div>
 
-<!-- // async function loadWords() {
-	// 	const response = await fetch('src/routes/words.txt'); // Adjust the path as necessary
-	// 	const text = await response.text();
-	// 	const items = text
-	// 		.split('\n')
-	// 		.map((line) => {
-	// 			const firstCommaIndex = line.indexOf(',');
-	// 			let item = line;
-	// 			let note = '';
-
-	// 			if (firstCommaIndex !== -1) {
-	// 				item = line.slice(0, firstCommaIndex).trim();
-	// 				note = line.slice(firstCommaIndex + 1).trim();
-	// 			}
-
-	// 			return { item, note };
-	// 		})
-	// 		.filter((entry) => entry.item !== '');
-
-	// 	return items;
-	// }
-
-	// async function initDatabase(items) {
-	// 	for (const { item, note } of items) {
-	// 		const record = {
-	// 			item: item,
-	// 			note: note,
-	// 			guessed: 0
-	// 		};
-	// 		await pb.collection('Items').create(record);
-	// 	}
-	// }
-
-	// onMount(async () => {
-	// 	const items = await loadWords();
-	// 	await initDatabase(items);
-	// }); -->
-
 <style>
 	.image-container {
 		position: relative;
@@ -233,13 +215,11 @@
 	}
 
 	.magnifier {
-		display: none;
 		position: absolute;
 		width: 300px;
 		height: 300px;
 		border: 4px solid rgba(0, 0, 0, 0.5);
 		background-repeat: no-repeat;
-		background-size: 500%;
 		pointer-events: none;
 		z-index: 100;
 	}
