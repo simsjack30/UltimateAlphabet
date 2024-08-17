@@ -75,37 +75,34 @@
 	}
 
 	function handleMouseMove(event: any) {
-		if (mag) {
-			const img = document.querySelector('.image-container img');
-			const { top, left, width, height } = img.getBoundingClientRect();
-			let x = event.clientX - left;
-			let y = event.clientY - top;
+		const img = document.querySelector('.image-container img');
+		const { top, left, width, height } = img.getBoundingClientRect();
+		let x = event.clientX - left;
+		let y = event.clientY - top;
 
-			let xPercent = (x / width) * 100;
-			let yPercent = (y / height) * 100;
+		let xPercent = (x / width) * 100;
+		let yPercent = (y / height) * 100;
 
-			let magnifierX = x - magnifier.offsetWidth / 2;
-			let magnifierY = y - magnifier.offsetHeight / 2;
+		let magnifierX = x - magnifier.offsetWidth / 2;
+		let magnifierY = y - magnifier.offsetHeight / 2;
 
-			if (magnifierX < 0) magnifierX = 0;
-			if (magnifierX + magnifier.offsetWidth > width) magnifierX = width - magnifier.offsetWidth;
-			if (magnifierY < 0) magnifierY = 0;
-			if (magnifierY + magnifier.offsetHeight > height)
-				magnifierY = height - magnifier.offsetHeight;
+		if (magnifierX < 0) magnifierX = 0;
+		if (magnifierX + magnifier.offsetWidth > width) magnifierX = width - magnifier.offsetWidth;
+		if (magnifierY < 0) magnifierY = 0;
+		if (magnifierY + magnifier.offsetHeight > height) magnifierY = height - magnifier.offsetHeight;
 
-			if (x < 0 || x > width) {
-				xPercent = x < 0 ? 0 : 100;
-			}
-			if (y < 0 || y > height) {
-				yPercent = y < 0 ? 0 : 100;
-			}
-
-			magnifier.style.left = `${magnifierX}px`;
-			magnifier.style.top = `${magnifierY}px`;
-
-			magnifier.style.backgroundImage = `url('${img.src}')`;
-			magnifier.style.backgroundPosition = `${xPercent}% ${yPercent}%`;
+		if (x < 0 || x > width) {
+			xPercent = x < 0 ? 0 : 100;
 		}
+		if (y < 0 || y > height) {
+			yPercent = y < 0 ? 0 : 100;
+		}
+
+		magnifier.style.left = `${magnifierX}px`;
+		magnifier.style.top = `${magnifierY}px`;
+
+		magnifier.style.backgroundImage = `url('${img.src}')`;
+		magnifier.style.backgroundPosition = `${xPercent}% ${yPercent}%`;
 	}
 
 	function handleGlobalMouseMove(event: any) {
@@ -180,8 +177,8 @@
 		goto('/results');
 	}
 
-	let minValue = 400;
-	let maxValue = 1000;
+	let minValue = 300;
+	let maxValue = 1200;
 	let stepValue = 5;
 
 	function handleWheel(event) {
