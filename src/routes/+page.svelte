@@ -179,7 +179,23 @@
 		}
 		goto('/results');
 	}
+
+	let minValue = 400;
+	let maxValue = 1000;
+	let stepValue = 5;
+
+	function handleWheel(event) {
+		event.preventDefault();
+
+		if (event.deltaY < 0) {
+			value = Math.min(value + 10 * stepValue, maxValue);
+		} else {
+			value = Math.max(value - 10 * stepValue, minValue);
+		}
+	}
 </script>
+
+<svelte:window on:wheel={handleWheel} />
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
@@ -196,7 +212,8 @@
 		<h3 class="h3 whitespace-nowrap">Ultimate Alphabet</h3>
 	</div>
 
-	<div class="p-2 md:p-4 h-auto md:h-full">
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	<div class="p-2 md:p-4 h-auto md:h-full" on:click={handleClick}>
 		<div class="md:h-full max-h-full image-container">
 			<img
 				src="wilks2.jpg"
@@ -240,8 +257,15 @@
 					<SearchCheck />
 				{/if}
 			</button>
-			<RangeSlider bind:value min={400} max={1000} step={5} class="w-64 {mag ? '' : 'hidden'} "
-			></RangeSlider>
+			<div>
+				<RangeSlider
+					bind:value
+					min={minValue}
+					max={maxValue}
+					step={stepValue}
+					class="w-64 {mag ? '' : 'hidden'} "
+				/>
+			</div>
 		</div>
 
 		<div class="flex flex-row gap-2 md:gap-4">
