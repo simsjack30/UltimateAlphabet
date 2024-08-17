@@ -9,7 +9,7 @@
 	const pb = new PocketBase('https://pocketbase-production-c5bc.up.railway.app');
 	export let data;
 
-	let records = [...data.records]; // Create a copy of data.records
+	let records = [...data.records];
 	let searchTerm = '';
 	let guessedItems: any = [];
 	let game = true;
@@ -114,7 +114,14 @@
 		}
 	}
 
+	let timerInterval: any;
+
 	onMount(() => {
+		timeRemaining = 5 * 60; // 5 * 60
+		if (timerInterval) {
+			clearInterval(timerInterval);
+		}
+
 		if (mag) {
 			const img = document.querySelector('.image-container img');
 			if (img) {
@@ -132,23 +139,38 @@
 
 	let value = 500;
 
-	let timeRemaining = 5 * 60; // 5 minutes in seconds
+	let timeRemaining: any = 5 * 60;
 	let minutes = Math.floor(timeRemaining / 60);
 	let seconds = timeRemaining % 60;
 
-	// Function to start the countdown
 	function startTimer() {
-		const timerInterval = setInterval(() => {
+		timerInterval = setInterval(() => {
 			timeRemaining--;
 			minutes = Math.floor(timeRemaining / 60);
 			seconds = timeRemaining % 60;
 
-			// When the timer reaches 0, stop the timer and route to results page
 			if (timeRemaining <= 0) {
 				clearInterval(timerInterval);
-				goto('/results'); // Replace with your results page route
+				goto('/results');
 			}
-		}, 1000); // Run every 1 second (1000 ms)
+		}, 1000);
+	}
+
+	let showModal = false;
+
+	function openModal() {
+		showModal = true;
+	}
+
+	function closeModal() {
+		showModal = false;
+	}
+
+	function goToResults() {
+		if (timerInterval) {
+			clearInterval(timerInterval);
+		}
+		goto('/results');
 	}
 </script>
 
@@ -237,7 +259,7 @@
 			</h5>
 		{:else}
 			<div class="flex flex-row gap-2 md:gap-4">
-				<button class="btn variant-filled-error rounded-md">DONE</button>
+				<button class="btn variant-filled-error rounded-md" on:click={openModal}>DONE</button>
 				<h2 class="h2">{minutes}:{seconds < 10 ? '0' : ''}{seconds}</h2>
 			</div>
 		{/if}
@@ -254,6 +276,23 @@
 		</div>
 	</div>
 </div>
+
+{#if showModal}
+	<div class="fixed top-0 left-0 bg-black opacity-80 w-screen h-screen z-[500]"></div>
+	<div
+		class="w-screen h-screen z-[999] fixed top-0 left-0 flex flex-col justify-center items-center gap-4"
+	>
+		<h2 class="h2">Submit and proceed to the results?</h2>
+		<div class="flex flex-row gap-4">
+			<button on:click={closeModal} class="btn variant-filled rounded-md btn-lg"
+				><strong>Close</strong></button
+			>
+			<button on:click={goToResults} class="btn variant-filled-error rounded-md btn-lg"
+				><strong>Results</strong></button
+			>
+		</div>
+	</div>
+{/if}
 
 <style>
 	.image-container {

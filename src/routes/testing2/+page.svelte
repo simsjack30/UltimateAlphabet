@@ -1,34 +1,28 @@
 <script lang="ts">
-	import { panzoom } from 'svelte-pan-zoom';
+	import { getModalStore } from '@skeletonlabs/skeleton';
+	import type { ModalSettings } from '@skeletonlabs/skeleton';
+	import { goto } from '$app/navigation'; // Import navigation function from SvelteKit
 
-	// Load the image directly
-	let image = new Image();
-	image.src = 'wilks2.jpg';
+	// Retrieve the modal store
+	const modalStore = getModalStore();
 
-	function render(ctx: CanvasRenderingContext2D, t: number) {
-		ctx.drawImage(image, 0, 0);
+	function openConfirmModal() {
+		const modal: ModalSettings = {
+			type: 'confirm',
+			title: 'Please Confirm',
+			body: 'Are you sure you wish to proceed to the results page?',
+			response: (confirmed: boolean) => {
+				if (confirmed) {
+					// If confirmed, navigate to /results
+					goto('/results');
+				}
+			}
+		};
+
+		// Trigger the confirm modal
+		modalStore.trigger(modal);
 	}
-
-	const options = {
-		render,
-		friction: 0
-	};
 </script>
 
-<div class="h-screen">
-	<canvas use:panzoom={options} />
-</div>
-
-<style>
-	canvas {
-		box-sizing: border-box;
-		width: 30%;
-		height: 30%;
-		user-select: none;
-		background-color: aliceblue;
-		touch-action: none;
-		overscroll-behavior: none;
-		-webkit-user-select: none; /* disable selection/Copy of UIWebView */
-		-webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
-	}
-</style>
+<!-- A simple button to trigger the modal -->
+<button on:click={openConfirmModal} class="btn btn-primary">Open Confirm Modal</button>
