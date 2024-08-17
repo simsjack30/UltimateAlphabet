@@ -2,6 +2,8 @@
 	import PocketBase from 'pocketbase';
 	import { Check, SearchX, SearchCheck, Search } from 'lucide-svelte';
 	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
+
 	import { RangeSlider } from '@skeletonlabs/skeleton';
 
 	const pb = new PocketBase('https://pocketbase-production-c5bc.up.railway.app');
@@ -10,6 +12,7 @@
 	let records = [...data.records]; // Create a copy of data.records
 	let searchTerm = '';
 	let guessedItems: any = [];
+	let game = true;
 
 	function normalizeString(str: any) {
 		return str.toLowerCase().replace(/[^a-z0-9]/gi, '');
@@ -20,12 +23,33 @@
 		const matchedRecords = records.filter(
 			(record) => normalizeString(record.item) === normalizedSearchTerm
 		);
-
 		if (matchedRecords.length > 0) {
+			if (game) {
+				game = false;
+				updateGame();
+				startTimer();
+			}
+			for (let record of matchedRecords) {
+				updateGuess(record);
+			}
 			guessedItems = [...guessedItems, ...matchedRecords];
 			records = records.filter((record) => !matchedRecords.includes(record));
 			searchTerm = '';
 		}
+	}
+
+	async function updateGame() {
+		const plays = await getPlays();
+		await pb.collection('Plays').update('ckzbth2g0egxm4u', { count: plays + 1 });
+	}
+
+	async function getPlays() {
+		const plays = await pb.collection('Plays').getOne('ckzbth2g0egxm4u');
+		return plays.count;
+	}
+
+	async function updateGuess(record: any) {
+		await pb.collection('Items').update(record.id, { guessed: record.guessed + 1 });
 	}
 
 	function handleKeyDown(event: any) {
@@ -96,18 +120,36 @@
 			if (img) {
 				const { left, top, width, height } = img.getBoundingClientRect();
 
-				// Simulate a mouse movement to the center of the image
 				const fakeEvent = {
 					clientX: left + width / 2,
 					clientY: top + height / 2
 				};
 
-				handleMouseMove(fakeEvent); // Call the existing function with synthetic values
+				handleMouseMove(fakeEvent);
 			}
 		}
 	});
 
 	let value = 500;
+
+	let timeRemaining = 5 * 60; // 5 minutes in seconds
+	let minutes = Math.floor(timeRemaining / 60);
+	let seconds = timeRemaining % 60;
+
+	// Function to start the countdown
+	function startTimer() {
+		const timerInterval = setInterval(() => {
+			timeRemaining--;
+			minutes = Math.floor(timeRemaining / 60);
+			seconds = timeRemaining % 60;
+
+			// When the timer reaches 0, stop the timer and route to results page
+			if (timeRemaining <= 0) {
+				clearInterval(timerInterval);
+				goto('/results'); // Replace with your results page route
+			}
+		}, 1000); // Run every 1 second (1000 ms)
+	}
 </script>
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
@@ -188,10 +230,16 @@
 		{#if guessedItems.length === 0}
 			<h5 class="w-5/6 h5 md:w-1/2 lg:w-96">
 				Find as many words in the picture that start with the letter J. Type your answers in the box
-				and submit by pressing Enter or the submit button.
+				and submit by pressing Enter or the checkmark button.
 			</h5>
-			<!-- Time starts when you make your first
-				successful guess. -->
+			<h5 class="w-5/6 h5 md:w-1/2 lg:w-96">
+				You can choose to end the game early or continue guessing until the time runs out.
+			</h5>
+		{:else}
+			<div class="flex flex-row gap-2 md:gap-4">
+				<button class="btn variant-filled-error rounded-md">DONE</button>
+				<h2 class="h2">{minutes}:{seconds < 10 ? '0' : ''}{seconds}</h2>
+			</div>
 		{/if}
 		<div class="flex justify-start items-start">
 			<ul
