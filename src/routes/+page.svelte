@@ -1,5 +1,8 @@
 <script lang="ts">
 	import PocketBase from 'pocketbase';
+	import { guessedItemsStore } from './store.js';
+	import { get } from 'svelte/store';
+
 	import { Check, SearchX, SearchCheck, Search } from 'lucide-svelte';
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
@@ -11,8 +14,10 @@
 
 	let records = [...data.records];
 	let searchTerm = '';
-	let guessedItems: any = [];
+	let guessedItems = [];
 	let game = true;
+
+	$: guessedItemsStore.set(guessedItems);
 
 	function normalizeString(str: any) {
 		return str.toLowerCase().replace(/[^a-z0-9]/gi, '');
@@ -117,6 +122,8 @@
 	let timerInterval: any;
 
 	onMount(() => {
+		guessedItemsStore.set([]);
+		guessedItems = get(guessedItemsStore);
 		timeRemaining = 5 * 60; // 5 * 60
 		if (timerInterval) {
 			clearInterval(timerInterval);
