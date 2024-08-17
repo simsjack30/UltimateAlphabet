@@ -224,7 +224,7 @@
 
 		<div class="lg:flex hidden flex-row items-center gap-4">
 			<button
-				class="icon btn {mag ? 'variant-ghost' : 'variant-filled-secondary'} rounded-md"
+				class="icon btn {mag ? 'variant-ghost' : 'variant-filled-secondary'} rounded-md shadow-xl"
 				on:click={handleClick}
 			>
 				{#if mag}
@@ -251,15 +251,23 @@
 		</div>
 		{#if guessedItems.length === 0}
 			<h5 class="w-5/6 h5 md:w-1/2 lg:w-96">
-				Find as many words in the picture that start with the letter J. Type your answers in the box
-				and submit by pressing Enter or the checkmark button.
+				<span>
+					Find as many words in the picture that start with
+					<span />
+					<span class="text-error-300"> The Letter J </span>
+					<span>
+						. Type your answers in the box and submit by pressing Enter or the checkmark button.
+					</span>
+				</span>
 			</h5>
 			<h5 class="w-5/6 h5 md:w-1/2 lg:w-96">
 				You can choose to end the game early or continue guessing until the time runs out.
 			</h5>
 		{:else}
 			<div class="flex flex-row gap-2 md:gap-4">
-				<button class="btn variant-filled-error rounded-md" on:click={openModal}>DONE</button>
+				<button class="btn variant-filled-error rounded-md shadow-xl" on:click={openModal}
+					>DONE</button
+				>
 				<h2 class="h2">{minutes}:{seconds < 10 ? '0' : ''}{seconds}</h2>
 			</div>
 		{/if}
