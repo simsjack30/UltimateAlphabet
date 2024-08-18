@@ -27,21 +27,45 @@
 	});
 </script>
 
-<div class="flex justify-center m-4">
-	<button class="variant-filled-secondary btn rounded-md"><a href="/">Play Again</a></button>
+<div class="flex justify-center mt-8 mx-2 gap-4">
+	<button class="variant-filled-tertiary btn rounded-md"><a href="/">Play Again</a></button>
+	<button class="btn variant-filled-secondary rounded-md shadow-xl">
+		<a href="http://www.mike-wilks.com/index.htm" target="_blank" rel="noreferrer">
+			<strong>M</strong>ike <strong>W</strong>ilks
+		</a>
+	</button>
+	<button class="btn variant-filled-error shadow-xl rounded-md">
+		<a href="https://jacksims.dev/" target="_blank" rel="noreferrer">jacksims.dev</a>
+	</button>
 </div>
-{#each allItems as item}
-	<div class="flex justify-center items-center w-full">
-		<div
-			class=" m-1 p-1 px-2 rounded-md w-11/12 lg:w-1/2 xl:w-1/3
-			{guessedItems.find((guessed) => guessed.id === item.id)
-				? 'variant-ghost-success'
-				: 'variant-ghost'}"
-		>
-			<strong>{item.item}</strong> - {item.note} (Guessed: {item.guessed} times) - {(
-				(item.guessed / numberOfPlays) *
-				100
-			).toFixed(2)}%
-		</div>
-	</div>
-{/each}
+<div class="m-2 lg:m-4">
+	<table class="mx-auto text-left">
+		<thead>
+			<tr class="">
+				<th class="px-2 lg:px-4 py-2">Players Correct (%)</th>
+				<th class="px-2 lg:px-4 py-2">Word/Definition</th>
+				<th class="px-2 lg:px-4 py-2">Times Guessed</th>
+			</tr>
+		</thead>
+		<tbody>
+			{#each allItems as item}
+				<tr
+					class={guessedItems.find((guessed) => guessed.id === item.id)
+						? 'variant-ghost-success'
+						: 'variant-soft'}
+				>
+					<td class="border px-2 lg:px-4 py-1 text-center"
+						><strong>{((item.guessed / numberOfPlays) * 100).toFixed(0)}</strong>%</td
+					>
+					<td class="border px-2 lg:px-4 py-1">
+						<span><strong>{item.item}</strong></span>
+						<span class="hidden lg:inline">- {item.note}</span>
+					</td>
+					<td class="border px-2 lg:px-4 py-1 text-center">
+						<strong>{item.guessed}</strong>
+					</td>
+				</tr>
+			{/each}
+		</tbody>
+	</table>
+</div>

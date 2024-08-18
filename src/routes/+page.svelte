@@ -5,6 +5,8 @@
 
 	import { Check, SearchX, SearchCheck, Search } from 'lucide-svelte';
 	import { onMount } from 'svelte';
+	import { fade } from 'svelte/transition';
+
 	import { goto } from '$app/navigation';
 
 	import { RangeSlider } from '@skeletonlabs/skeleton';
@@ -217,7 +219,7 @@
 				alt=""
 				class="rounded-lg max-h-full w-auto object-top object-contain shadow-lg {mag
 					? 'cursor-none'
-					: 'cursor-auto'}"
+					: 'cursor-zoom-in'}"
 			/>
 			<div class="hidden lg:flex">
 				<div class={mag ? 'flex' : 'hidden'}>
@@ -255,13 +257,11 @@
 				{/if}
 			</button>
 			<div>
-				<RangeSlider
-					bind:value
-					min={minValue}
-					max={maxValue}
-					step={stepValue}
-					class="w-64 {mag ? '' : 'hidden'} "
-				/>
+				{#if mag}
+					<div transition:fade>
+						<RangeSlider bind:value min={minValue} max={maxValue} step={stepValue} class="w-64" />
+					</div>
+				{/if}
 			</div>
 		</div>
 
