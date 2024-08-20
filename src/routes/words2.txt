@@ -1,0 +1,1233 @@
+
+S,Nineteenth letter of the alphabet
+S,Braille alphabet
+S,International signal flag
+S,Manual alphabet-American system
+S,Morse code alphabet
+S,Semaphore alphabet
+SABLE,Variety of animal
+SABLE,Heraldic name for black
+SABLE ANTELOPE,Variety of antelope
+SABOT,Clog
+SABRE,Type of cavalry sword
+SABRE-TOOTHED CAT,Variety of extinct animal: Smilodon
+SABREFIN,Variety of fish
+SABRETACHE,Satchel carried by cavalry officer
+SABREUR,Swordsman armed with a sabre
+SACK,Large cloth bag
+SACKING,Coarse fabric from which sacks are made
+SACRED IBIS,Variety of bird
+SACRUM,Part of the pelvis
+SAD-IRON,Flatiron
+SADDLE,Seat for fastening to a horse
+SADDLE BLANKET,Cloth placed beneath a saddle
+SADDLE HORN,Knot at front of a saddle
+SADDLEBAG,Bag attached to a saddle
+SADDLECLOTH,Saddle blanket
+SADDLED,Fitted with a saddle
+SADHE,Eighteenth letter of the Hebrew alphabet
+SAFE,Lockable steel cupboard
+SAFETY BELT,Restraining belt fitted to a car
+SAFETY PIN,Closable fastening device
+SAFFRON,Variety of flowering plant
+SAFFRON,Bright orange-yellow color
+SAGITTARIUS,Ninth sign of the zodiac: the archer
+SAGUARO,Variety of cactus
+SAIGA,Variety of animal
+SAIL,Cloth used to catch the wind on a sailing ship
+SAILBOAT,Boat propelled by sail
+SAILER,Sailboat
+SAILING,Propelled by sail
+SAILOR,Mariner
+SAILPLANE,Glider
+SAILYARD,Spar on which sails are set
+SAINT,Holy person (Saint Sebastian shown here)
+SAINT ANDREW'S CROSS,Flag of Scotland
+SAINT ANTHONY'S CROSS,Style of cross with only three arms
+SAINT BERNARD,Breed of dog
+SAINT CHRISTOPHER-NEVIS-ANGUILLA,Flag of Caribbean island group
+SAINT HELENA,Flag of South Atlantic island
+SAINT LUCIA,Flag of Caribbean island
+SAINT SEBASTIAN,Early Christian saint
+SAINT VINCENT AND THE GRENADINES,Flag of Caribbean island country
+SAITHE,Variety of fish coalfish
+SALAMANDER,Variety of amphibian
+SALAMI,Type of large sausage
+SALESCLERK,Person employed to sell goods
+SALIENTIAN,Frog or toad
+SALIVA,Spittle
+SALIVATION,Secreting saliva
+SALLET,Style of helmet
+SALMON,Variety of fish
+SALOMÓNICA,Style of twisted column
+SALT,Seasoning for food
+SALTBOX,Style of house
+SALTIRE,Heraldic X-shaped cross SALTSHAKER Sprinkler for salt
+SALUKI,Breed of dog
+SALUTE,Raising the hand to the cap
+SALVER,Large flat tray
+SAMARA,Sycamore seed
+SAMARIUM,Element: atomic number 62
+SAMBAR,Variety of animal
+SAMEKH,Fifteenth letter of the Hebrew alphabet
+SAMOA,Flag of Pacific island group (Western Samoa)
+SAMOA,Flag of Pacific island group (American Samoa)
+SAMOVAR,Russian tea urn
+SAMPAN,Type of East Asian boat
+SAN MARINO,Flag of southern European republic
+SAND,Loose granular mineral powder
+SAND-BIRD,Variety of bird; sandpiper
+SAND-FISH,Variety of fish
+SAND-LIZARD,Variety of lizard
+SAND-RUNNER,Sandpiper
+SAND-SNIPE,Sandpiper
+SAND-STORM,Meteorological symbol for sandstorm
+SANDAL,Style of open shoe
+SANDERLING,Variety of bird
+SANDGLASS,Time-keeping device; hourglass
+SANDPIPER,Variety of bird
+SANDWICH,Snack made from filled slices of bread
+SANGUINE,Reddish color
+SANSERIF,Letterform without serifs
+SANSKRIT,Ancient Hindu language
+SANTA CLAUS,Father Christmas
+SÃO TOMÉ AND PRÍNCIPE,Flag of central African republic
+SAPPHIRE,Type of gemstone
+SARANGI,Type of musical instrument
+SARCELLY,Type of heraldic cross
+SAREE,Type of Indian woman's garment
+SARONG,Type of East Indian wraparound garment
+SASH,Decorative waistband
+SASSABY,Variety of antelope: hartebeest
+SATAN,The devil
+SATCHEL,Small bag
+SATELLITE,A moon
+SATELLITE,Machine orbiting in space
+SATSUMA,Variety of fruit
+SATURDAY,Astrological symbol for Saturday
+SATURN,Sixth planet of the sun
+SATURN,Astrological symbol for Saturn
+SATYR,Ancient Greek supernatural being
+SAUCEBOAT,Vessel for serving sauce
+SAUCEPAN,Long-handled cooking pot
+SAUCER,Small shallow dish to retain cup
+SAUCISSON,Sausage
+SAUDI ARABIA,Flag of southwest Asian kingdom
+SAUPE,Variety of fish
+SAURIAN,Dinosaur
+SAURY,Variety of fishc skipper
+SAUSAGE,Minced meat stuffed in a skin
+SAVONAROLA CHAIR,Style of chair, scissors chair
+SAW,Cutting tool
+SAWDUST,Dust formed from sawn wood
+SAXHORN,Type of musical instrument
+SAXOPHONE,Type of musical instrument
+SCABBARD,Sword sheath
+SCAD,Variety of fish
+SCALE,Rung of a ladder
+SCALE,Ladder
+SCALE,Staircase
+SCALE,Series of musical notes
+SCALE,Measured gradations on an instrument
+SCALENE,Triangle with unequal sides and angles
+SCALES,Flakes on a snake's skin
+SCALES,Weighing machine
+SCALLOP,Type of seashell
+SCALP,Hairy skin on top of the head
+SCALPEL,Surgeon's cutting tool
+SCALY ANTEATER,Variety of animal pangolin
+SCANDINAVIA,Norway, Sweden, Finland, and Denmark
+SCANDIUM,Element, atomic number 21
+SCANTY,Insufficient, brief
+SCAPE,Scene
+SCAPE,Shaft of a column
+SCAPE,Stalk
+SCAPULA,Shoulder blade
+SCAPUS,Shaft of a feather
+SCAR,Mark left by a healed wound
+SCAR,Cliff
+SCARAB,Variety of beetle, dung beetle
+SCARABAEUS,Scarab
+SCARCE SWALLOWTAIL,Variety of butterfly
+SCARECROW,Figure to frighten birds
+SCARF,Fabric worn around neck
+SCARLET,Brilliant red
+SCARLET IBIS,Variety of bird
+SCARP,Cliff
+SCENE,Episode of a play
+SCENERY,Stage setting
+SCENERY,Landscape
+SCENESHIFTER,Stagehand who moves scenery
+SCEPTER,Ceremonial rod
+SCHLEGEL'S PIT VIPER,Variety of snake
+SCHNEIDER,Variety of fish
+SCHNORKEL,Underwater breathing tube
+SCHOONER,Type of sailing vessel
+SCHWENKEL,Style of flag
+SCIMITAR,Type of Middle Eastern sword
+SCIMITAR-BABBLER,Variety of bird
+SCIMITAR-BILL,Variety of bird
+SCION,Young shoot
+SCISSORS,Cutting tool
+SCISSORS CHAIR,Type of chair, Savonarola chair
+SCIURINE,Squirrel
+SCOOP,Type of shovel for lifting loose substances
+SCORE,Incised groove
+SCORE,Musical notation
+SCORE,Twenty
+SCORPIO,Eighth sign of the zodiac: the scorpion
+SCORPION,Variety of arachnid
+SCOTLAND,Flag of western European country
+SCOTTISH TERRIER,Breed of dog
+SCRAP,Fragment
+SCREAMER,Variety of bird
+SCREEN,Front window of car, windscreen
+SCREW,Small fastening device
+SCREWDRIVER,Tool for turning screws
+SCRIBBLE,Meaningless lines
+SCRIMSHAW,Ornamental object made from sea ivory
+SCRIPT,Flowing writing
+SCRIPTION,Handwriting
+SCROLL,Ornament in the shape of a roll of material
+SCROTUM,Pouch of flesh containing testicles
+SCRUFF,Nape of the neck
+SCRUPLE,Apothecaries' weight symbol
+SCUBA,Acronym for Self-Contained Underwater Breathing Apparatus
+SCULPTURE,Three-dimensional work of art
+SCUTIFORM,Shield-shaped
+SCUTTLE,Container for coal
+SCYE,Where the sleeve is inserted into a garment
+SCYTHE,Tool for reaping or mowing
+SCYTHEBILL,Variety of bird
+SEA,Large expanse of salt water
+SEA STAR,Starfish
+SEA-BIRD,Fish-eating bird that lives around the coast
+SEA-BOARD,Coastline
+SEA-CALF,Seal
+SEA-COAST,Seashore
+SEA-DOG,Sailor
+SEA-FISH,Fish found in the sea
+SEA-FRONT,Coastline
+SEA-GOING,Vessel that sails on the sea
+SEA-HORSE,Variety of fish
+SEA-IVORY,Ivory obtained from sea creatures
+SEA-LAWYER,Shark
+SEA-LINE,Horizon of the sea
+SEA-LION,Variety of aquatic mammal
+SEA-MAID,Mermaid
+SEA-PIECE,Painting representing the sea seascape
+SEA-PURSE,Egg sack of the skate
+SEA-SHELL,Shell of marine creature
+SEA-SHORE,Coastline
+SEA-URCHIN,Variety of sea creature: echinus
+SEA-VIEW,Seascape
+SEAFARER,Sailor
+SEAL,Variety of aquatic mammal
+SEAL CALF,Young seal
+SEAL POINT,Breed of Siamese cat
+SEAM,Sewn joint
+SEAM,Place where planks join
+SEAMAN,Sailor
+SEAPLANE,Plane equipped to land on the sea
+SEARCE,Sieve
+SEARCHLIGHT,Lamp with powerful beam
+SEASCAPE,Picture featuring the sea
+SEASIDE,Land bordering the sea
+SEASTRAND,Shore
+SEAT,Chair
+SEAT,Buttocks
+SEAT,Portion of a saddle for sitting upon
+SEATBELT,Safety belt in a car
+SEATED,Sitting
+SEATSTICK,Walking stick with a folding seat
+SECATEUR,Gardener's cutting tool
+SECOND,One-sixtieth of a minute
+SECOND,Position between first and third
+SECOND HAND,Clock hand indicating seconds
+SECONDHAND,Goods that are not new
+SECONDARY COLORS,Green, orange and purple
+SECONDARY FEATHER,Feathers of bird's wing other than primaries and coverts
+SECRETAIRE,Type of writing desk
+SECRETARY,Secretaire
+SECRETARY BIRD,Variety of bird
+SECRETUM,Private seal
+SECTION,Portion
+SECTION MARK,Printer's sign to indicate footnote
+SECTOR,Portion of a circle
+SEDAN CHAIR,Antique form of transport
+SEDENT,Sitting
+SEED,Fertilized ovule of a plant
+SEGMENT,Fragment
+SEGMENTAL ARCH,Style of arch
+SEGNO,Musical symbol to mark a repeat
+SEJANT,Heraldic device
+SELACHIAN,Shark
+SELENIUM,Element: atomic number 34
+SELEVIN'S MOUSE,Variety of animal
+SELF-PORTRAIT,Portrait of the artist by himself
+SELL,Saddle
+SEMAPHORE,System of signaling using flags
+SEMBLANT,A likeness
+SEME,Dotted
+SEMEIOLOGY,Sign language
+SEMINUDE,Half-naked
+SEMIBREVE,Type of musical note, whole note
+SEMICIRCLE,Half circle
+SEMICIRQUE,Semicircle
+SEMICOLON,Type of punctuation mark
+SEMICOLON,Morse code for semicolon
+SEMIDEMISEMIQUAVER,Type of musical note: sixty-fourth note
+SEMILUNE,Crescent
+SEMINIFEROUS,Seed bearing
+SEMIQUAVER,Type of musical note; sixteenth note
+SEMITONE,Musical interval
+SENARY DIVISION,Division into six portions
+SENDING,Dispatching a message
+SENDER,Dispatcher of a message
+SENEGAL,Flag of West African republic
+SENSORY,Sense organ
+SENTINEL,Guard; sentry
+SENTRY,Sentinel
+SENTRY BOX, Shelter for a sentry
+SEPAL,Segment of a calyx
+SEPIA,Dark-brown color
+SEPTANGLE,Seven-sided geometrical figure
+SEPTFOIL,Foil with seven lobes
+SEPTIME,Seventh position in fencing
+SEPTUM,Partition between the nostrils
+SEQUACIOUS,Following in regular order
+SEQUENCE,Series: things in order
+SERAPH,Type of superior angel
+SERGEANT,Noncommissioned officer above a corporal
+SERGEANT MAJOR,Variety of fish
+SERIES,Sequence
+SERIF,Short stroke terminating letters
+SERIN,Variety of bird
+SEROTINE,Variety of bat
+SERPENT,Snake
+SERPENT,Type of musical instrument
+SERPENT EATER,Variety of bird; secretary bird
+SERPENTIFORM,Serpentine
+SERPENTINE,In the form of a snake
+SERRATION,Sawlike edge
+SERVAL,Variety of animal
+SERVER,Salver
+SET,Stage scene
+SET,Disappear from sight
+SET,Complete collection
+SET SQUARE,Right-angled drawing instrument
+SETBACK,Steplike recession in skyscraper façade
+SETH,Ancient Egyptian god
+SETTEE,Long upholstered seat
+SETTER,Breed of dog
+SETTLE,Style of long wooden seat
+SETTLED,Fixed in position
+SEVEN,Prime number between six and eight
+SEVEN,Roman numeral for seven
+SEVENTEEN,Seven more than ten
+SEVENTEEN,Roman numeral for seventeen
+SEVENTH,In order between sixth and eighth
+SEVENTH,Seventh part of a whole
+SEVENTY,Seven times ten
+SEVENTY,Roman numeral for seventy
+SEVERED,Separated
+SEWELLEL,Variety of animal
+SEWING,Join made by stitches
+SEX,Genitals
+SEXDIGITAL,Six-fingered
+SEXDIGITIST,Person with six fingers
+SEXFOIL,Foil with six lobes
+SEXPARTITE,Divided into six parts
+SEYCHELLES,Flag of Indian Ocean island group
+SHACK,Wooden cabin
+SHACKLE,Fetters
+SHACKLED,Fettered
+SHADDOCK,Grapefruit
+SHADE,Ghost
+SHADE,Covering for a lamp
+SHADE,Parasol
+SHADE,Shadow
+SHADING,Depiction of form
+SHADOW,Dark area of obstructed light
+SHADOW,Ghost
+SHAFT,Arrow
+SHAFT,Handle of a spear
+SHAFT,Ray of light
+SHAFT,Main body of a column
+SHAFT,Long central part of an anchor
+SHAG,Variety of bird
+SHAITAN,The devil
+SHAKO,Style of military hat
+SHAMROCK,Symbol based on a variety of trefoil
+SHANK,Shin
+SHANK,Lower leg of a horse
+SHANK,Shaft of an anchor
+SHANK,Each half of a pair of scissors
+SHANK,Stem of a wine glass
+SHANK,Stem of a plant
+SHANNY,Variety of fish
+SHANTY,Shack
+SHAPE,Outward form
+SHARD,Fragment of pottery
+SHARD,Wing case of an insect
+SHARK,Variety of fish
+SHARP,Pointed
+SHARP,Musical notation symbol
+SHARPBILL,Variety of bird
+SHARPENER,Device for sharpening
+SHAVING BRUSH,Brush for applying shaving lather
+SHEAF,Bundle of wheat
+SHEARS,Scissors
+SHEATH,Scabbard
+SHEATHBILL,Variety of bird
+SHEBANG,Shed
+SHED,Small wooden building
+SHED,Part in the hair
+SHEDDING,Casting of light
+SHEDDING,Losing of blood
+SHEEP,Variety of domestic animal
+SHEEPDOG,Dog used to tend sheep
+SHEEPSHANK,Type of knot
+SHEER,Steep
+SHEER,Curve of a ship's deck
+SHEET,Leaf of paper
+SHEET,Pane of glass
+SHEET,Rope controlling a sail
+SHEET BEND,Type of knot
+SHELDGOOSE,Variety of bird
+SHELF,Horizontal board fixed in a cupboard
+SHELL,Hard outer coat of certain creatures
+SHELL,Explosive projectile
+SHELTER,Shack
+SHELTIE,Breed of dog: Shetland Sheepdog
+SHEPHERD DOG,Sheepdog
+SHEPHERD'S CHECK,Type of pattern
+SHETLAND SHEEPDOG,Breed of dog
+SHIELD,Escutcheon
+SHIELD BUG,Variety of insect
+SHIKRA,Variety of bird
+SHILLING,Symbol for a shilling
+SHIN,Front part of lower human leg
+SHIN,Twenty-second letter of the Hebrew alphabet
+SHINBONE,Tibia
+SHINGLE,Coarse gravel
+SHINY,Bright
+SHINZO,Type of Japanese statue
+SHIP,Square-rigged sailing vessel
+SHIP RAT,Variety of rodent
+SHIP-RIGGED,Rigged like a ship
+SHIPMAN,Sailor
+SHIPWRECK,Destruction of a ship
+SHIRE HORSE,Breed of horse
+SHIRT,Man's loose upper garment
+SHIRT-SLEEVE,Sleeve of a shirt
+SHIRTFRONT,Front of a shirt
+SHOD,Wearing shoes
+SHOE,Covering for the foot
+SHOE TREE,Device to preserve the shape of a shoe
+SHOEBEAK,Variety of bird; shoebill
+SHOEBILL,Variety of bird
+SHOEBIRD,Shoebill
+SHOEHORN,Device to aid putting on shoes
+SHOELACE,Shoe fastening
+SHOESTRING,Shoelace
+SHOOT,New growth on a plant
+SHOOTER,Gun
+SHOOTING BRAKE,Station wagon
+SHOOTING IRON,Gun
+SHOOTING STAR,Meteorite
+SHOOTING STICK,Walking stick incorporating folding seat
+SHOP,Building where goods are sold
+SHOP COUNTER,Shelf between shopper and shopkeeper
+SHOPBOARD,Shop counter
+SHOPKEEPER,Owner of a shop
+SHOPMAN,Male shopkeeper
+SHORE,Where the sea meets the land
+SHORELINE,Coastline
+SHORTHAIR,Breed of cat with short hair
+SHORTS,Short trousers
+SHOT,Hit by a missile
+SHOTSTAR,Meteorite
+SHOULDER,Where the arm joins the body
+SHOULDER BOARD,Epaulet
+SHOULDER BLADE,Scapula
+SHOULDER BONE,Shoulder blade
+SHOULDER JOINT,Joint where the arm joins the body
+SHOULDERED,Military drill position
+SHOUTING,Calling out loudly
+SHOUTER,Person who shouts
+SHOVEL,Digging tool
+SHOVELARD,Spoonbill
+SHOVELBILL,Variety of duck; spoonbill
+SHOVELER,Spoonbill
+SHOW,Theatrical entertainment
+SHOWCASE,Glass case for displaying articles
+SHOWER,Meteorological symbol for shower
+SHOWER,Meteorological symbol for rain shower
+SHOWER,Meteorological symbol for hail shower
+SHOWROOM,Room where goods are displayed for sale
+SHRED,Fragment
+SHREW,Variety of small animal
+SHREWMOUSE,Shrew
+SHRIKE,Variety of bird
+SHRIMP,Variety of crustacean
+SHRIMP FISH,Variety of fish
+SHROUD,Rope from side of ship to masthead
+SHUT,Closed
+SHUT-EYE,Sleep
+SHUTTLE,Vehicle for repeated journeys
+SHUTTLECOCK,Feathered projectile used in badminton
+SIAMANG,Variety of ape
+SIAMESE CAT,Breed of cat
+SIAMESE FIGHTING FISH,Variety of fish
+SICE,Six at dice
+SICKLE,Reaping tool
+SICKLEFIN KILLI,Variety of fish: sabrefin
+SIDE,Left or right of external surface
+SIDE DRUM,Small drum
+SIDE HORSE,Gymnastic horse
+SIDE JOCKEY,Side part of a saddle
+SIDE-ARM,Pistol
+SIDE-FACE,Profile
+SIDE-LIGHT,Parking light of a car
+SIDE-SADDLE,Style of ladies' saddle
+SIDE-VIEW,View seen from the side
+SIDE-WALL,Side surface of tire
+SIDE-WHEEL,Paddle wheel mounted at the side of a vessel
+SIDE-WHEELER,Vessel propelled by side-wheels
+SIDEBURNS,Whiskers at the side of the face
+SIENNA,Rich light-brown color
+SIERRA LEONE,Flag of West African republic
+SIEVE,Apparatus for separating large particles from small
+SIFAKA,Variety of animal
+SIGHT,Aiming device on a gun
+SIGHT,Area enclosed by a picture frame
+SIGHT HOLE,End of telescope held to the eye
+SIGIL,Signet
+SIGMA,Eighteenth letter of the Greek alphabet
+SIGN,Gesture conveying meaning
+SIGN,Zodiacal symbol
+SIGN MANUAL,Hand gesture of deaf mutes
+SIGN-POST,Direction indicator
+SIGNAL,Method of communication over distance
+SIGNAL,Device for conveying information to trains
+SIGNALIST,Signaler
+SIGNALER,Person who signals
+SIGNALING,Making a signal
+SIGNALMAN,Signaler
+SIGNATURE,Personal mark
+SIGNET,Small personal seal
+SIGNET RING,Ring with personal seal
+SIKA,Variety of deer
+SIKH,Flag of Sikhism
+SILHOUETTE,Portrait profile in solid black and white
+SILICON,Element; atomic number 14
+SILK HAT,Top hat made from silk
+SILVER,Chemical symbol (Ag)
+SILVER,Element; atomic number 47
+SIMIAN,Ape
+SIN,Twenty-first letter of the Hebrew alphabet
+SINCIPUT,Front of the head
+SINGAPORE,Flag of the Southeast Asian republic
+SINGLE KNOT,Type of knot
+SINGLET,Sleeveless undervest
+SINISTER,Heraldic term for left
+SINK,Kitchen basin
+SINKING,Failing to float
+SIPHON,Bottle for discharging aerated water
+SISKIN,Variety of bird
+SISTER HOOK,S-shaped hook
+SITAR,Type of musical instrument
+SITATUNGA,Variety of antelope
+SITTER,Seated person
+SITTING,Resting upon the buttocks
+SIVA,A principal Hindu god
+SIX,Composite number between five and seven
+SIX,Roman numeral for six
+SIX,Face of a die displaying six spots
+SIX-GUN,Revolver with six shots
+SIX-SHOOTER,Six-gun
+SIXFOIL,Foil with six lobes; sexfoil
+SIXSCORE,One hundred and twenty
+SIXTE,Sixth fencing position
+SIXTEEN,Six more than ten
+SIXTEEN,Roman numeral for sixteen
+SIXTEENTH NOTE,Semiquaver
+SIXTH,Position between fifth and seventh
+SIXTH,Sixth part of a whole
+SIXTY,Six times ten
+SIXTY,Roman numeral for sixty
+SIXTY-FOURTH NOTE,Semidemisemiquaver
+SIZE,Indication of fitting
+SKATE,Variety of fish
+SKATE,Steel blade fitted to shoe
+SKELETON,The complete bones of the body
+SKETCH,Rough drawing
+SKETCHBOOK,Book containing sketches
+SKEWBALD,Horse irregularly marked with colors
+SKI,Device for sliding over snow
+SKI BOOT,Boot for attaching to skis
+SKI MASK,Face mask worn by skiers
+SKI RUN,Trail for skiing
+SKI-BOB,Steerable vehicle for skiing
+SKI-JUMPER,Person ski-jumping
+SKI-JUMPING,Sport involving leaping from a ramp on skis
+SKI-LIFT,Conveyer for transporting skiers up mountains
+SKI-WEAR,Clothes worn for skiing
+SKIER,Person skiing
+SKIING,Traveling on skis
+SKILLET,Long-handled cooking vessel
+SKILLING,Shed
+SKIMOBILE,Snowmobile
+SKIN,Covering of the body
+SKIN,Vibrating surface of a drum
+SKIN DIVER,Underwater swimmer
+SKIN DIVING,Underwater swimming
+SKINLESS,Without skin
+SKI POLE,Poles held while skiing
+SKIPPER,Variety of fish
+SKIRT,Part of a saddle
+SKITTLE,Pin aimed at in bowling
+SKULL,Bone of the head
+SKULL CAP,Small cap worn on the back of the head
+SKUNK,Variety of animal
+SKUNK BOTIA,Variety of fish
+SKY,Upper part of Earth's atmosphere
+SKY BLUE,Color of the clear sky
+SKY-LINE,Horizon
+SKY-SCRAPER,Very tall building
+SKYE TERRIER,Breed of dog
+SKYLARK,Variety of bird
+SKYLIGHT,Overhead window
+SKYSAIL,Type of sail set above royal
+SLALOM,Downhill skiing between obstacle poles
+SLANGS,Fetters; manacles
+SLANTINDICULAR,Slanting
+SLANTING,Sloping
+SLANTWISE,Slanting
+SLASH,Cut
+SLAT,Narrow strip of wood
+SLED,Small sledge
+SLEDGE,Vehicle on runners
+SLEEPER,Person sleeping
+SLEEPING,Naturally unconscious
+SLEET,Meteorological symbol for sleet
+SLEEVE,Part of a garment that covers the arm
+SLEEVELESS,Without sleeves
+SLICE,Broad thin portion
+SLIDE,Photographic transparency
+SLIDE PROJECTOR,Apparatus for projecting an image from a slide
+SLING,Support for an injured arm
+SLINGSHOT,Catapult
+SLIPKNOT,Type of knot
+SLIPPER,Soft indoor shoe
+SLIT,Narrow clean cut
+SLOPE,Incline
+SLOT,Slit; groove
+SLOTH,Variety of animal
+SLUG,Shell-less mollusk
+SLUG,Bullet
+SLUMBERER,Sleeper
+SLUMBERING,Sleeping
+SLUNG,Suspended
+SLUR,Smudge
+SMALL ARM,Pistol
+SMEAR,Smudge
+SMEE,Variety of bird; smew
+SMELT,Variety of fish
+SMEW,Variety of bird
+SMILE,Facial expression of pleasure
+SMILODON,Variety of extinct animal; saber-toothed cat
+SMOKE,Vapor from a fire
+SMOKER,Tobacco smoker
+SMOKESTACK,Funnel
+SMOKING,Inhaling tobacco smoke
+SMOOTH,Even-surfaced
+SMOOTHING IRON,Tool for pressing fabric
+SMOOTHING PLANE,Tool for smoothing wood
+SMOUCH,Smudge
+SMUDGE,Blur; smear
+SMUT,Dirty mark
+SMUTCH,Smudge
+SNAIL,Variety of mollusk
+SNAKE,Variety of reptile; serpent
+SNAKEBIRD,Variety of bird; anhinga
+SNAKEHEAD,Variety of fish
+SNAPPED,Broken in pieces
+SNAPPER,Variety of fish
+SNAPSHOT,Photograph
+SNARE DRUM,Type of musical instrument
+SNARES,Vibrating wires beneath snare drum
+SNATH,Scythe handle
+SNEAKER,Style of canvas shoe
+SNIPPERS,Scissors
+SNOOD,Decorative helmet
+SNOOZE,Light sleep
+SNOUT,Animal's nose; muzzle
+SNOW,Flakes of frozen water vapor
+SNOW,Meteorological symbol for snow
+SNOW BUNTING,Variety of bird
+SNOW-FALL,Fall of snow
+SNOW-FIELD,Area covered with fallen snow
+SNOW-FLAKE,Particle of frozen water vapor
+SNOW-LEOPARD,Variety of animal; ounce
+SNOW-PANTHER,Snow-leopard
+SNOW-SCAPE,Painting featuring snow-covered landscape
+SNOW-SHOE,Strung frame for walking on snow
+SNOWBIRD,Variety of bird: snow bunting
+SNOWDROP,Variety of plant
+SNOWMAN,Figure built from snow
+SNOWMOBILE,Motorized vehicle for traveling on snow
+SNOWMOBILER,Driver of a snowmobile
+SNOWMOBILING,Traveling by snowmobile
+SNOWY OWL,Variety of bird
+SNOWY SHEATHBILL,Variety of bird
+SOAP,Lathering cleaning agent
+SOAPSUDS,Lather from soap
+SOBOLIFEROUS,With shoots
+SOCK,Short stocking
+SOCKET,Hollow of the eyes
+SOCKEYE,Variety of fish; salmon
+SOD,Turf
+SODA WATER,Effervescent water
+SODIUM,Chemical symbol (Na)
+SODIUM,Element; atomic number 11
+SOFA,Long, upholstered seat
+SOFFIT,Underside of an arch; intrados
+SOIL,Earth
+SOILED,Dirty
+SOILURE,Stain
+SOLAR PANEL,Apparatus for extracting power from sunlight
+SOLARIUM,Sundial
+SOLDADO,Variety of fish: squirrel fish
+SOLDIER,Man trained to fight on land
+SOLDIERFISH,Variety of fish: squirrel fish
+SOLE,Undersurface of shoe
+SOLID,Neither gas nor liquid
+SOLIDUS,Oblique stroke of fraction or shilling symbol
+SOLIPED,Animal with uncloven hoof
+SOLITAIRE,Type of game for one player
+SOLITAIRE,Variety of extinct dodo-like bird
+SOLLERET,Armor protecting the foot
+SOLOMON ISLANDS,Flag of southwest Pacific island group
+SOLOMON'S SEAL,Type of six-pointed star
+SOMA,Body of an organism
+SOMALIA,Flag of northeast African country
+SOMBRERO,Style of wide-brimmed hat
+SOMEBODY,Unspecified person
+SOMEONE,Somebody
+SOMETHING,Unspecified thing
+SOMNOLENT,Sleeping
+SONGBIRD,Bird that sings
+SOPORIFIC,Somnolent
+SOUSAPHONE,Type of musical instrument
+SOUTH,Cardinal point of the compass opposite to north
+SOUTH AFRICA,Flag of southern African country
+SOUTH-EAST,Direction between south and east
+SOUTH-SOUTHEAST,Direction between south and southeast
+SOUTH-SOUTHWEST,Direction between south and southwest
+SOUTH-WEST,Direction between south and west
+SOUTHERN CROSS,Constellation of the southern hemisphere
+SOUTHWESTER,Style of waterproof hat
+SOVIET UNION,Flag of East European and Asian country
+SOW,Female pig
+SPACE,Gap between words
+SPACE,Void between stars and planets
+SPACE SHUTTLE,Vehicle for frequent journeys into space
+SPACE STATION,Orbiting habitation in space
+SPACE SUIT,Protective suit worn by people in space
+SPACECRAFT,Vehicle for traveling in space
+SPACEMAN,Person equipped to live in space
+SPACESHIP,Spacecraft
+SPADE,Digging tool
+SPADE,Suit of playing cards
+SPADEFOOT TOAD,Variety of toad
+SPAIN,Flag of western European country
+SPALL,Shoulder
+SPAN,Extent of stretched land
+SPAN,Distance between pillars of an arch
+SPAN,Area across the wings of an aircraft
+SPANDREL,Rectangle enclosing arch
+SPANIARD,Native of Spain
+SPANIEL,Breed of dog
+SPANISH FLY,Variety of insect
+SPANISH MINNOWCARP,Variety of fish
+SPANKER,Type of sail
+SPANNER,Tool for turning bolts
+SPAR,Yard
+SPARROW,Variety of bird
+SPATULETAIL,Variety of hummingbird
+SPEAKER,Loudspeaker
+SPEAKING TRUMPET,Megaphone
+SPEAR,Pointed weapon with long handle
+SPEARHEAD,Metal tip of spear
+SPECIES,Type; variety
+SPECK,Blemish
+SPECTACLE,Performance
+SPECTACLED BEAR,Variety of animal
+SPECTACLED OWL,Variety of bird
+SPECTACLES,Glasses
+SPECTER,Ghost
+SPECTRUM,Graduated series of colors
+SPECTRUM,Ghost
+SPELLING,Correct order of letters in a word
+SPERM WHALE,Variety of large marine mammal
+SPHERE,Globe
+SPHINX,Type of mythological creature
+SPHINX MOTH,Variety of moth
+SPIDER,Variety of arachnid
+SPIDER CRAB,Variety of crustacean
+SPIDER MONKEY,Variety of animal
+SPIDER WEB,Cobweb
+SPIGOT,Faucet; tap
+SPILE,Spigot
+SPILLAGE,Spilt liquid
+SPILT,Fallen from a vessel
+SPILTH,Spillage
+SPINDLE,Heraldic device; fusil
+SPINDLE SHELL,Variety of shell
+SPINE,Backbone
+SPINE,Pointed growth on fish's back
+SPINE,Back of a book
+SPINIFEROUS,With spines
+SPINNAKER,Type of sail
+SPINNER,Spider
+SPINODE,Cusp of foil
+SPINY,With spines
+SPINY ANTEATER,Variety of animal: echidna
+SPIRACLE,Whale's blowhole
+SPIRAL,Coil
+SPIRE,Steeple
+SPIRE,Stalk
+SPIRE,Prong of an antler
+SPIRE,Complete convolution of a spiral
+SPIRIFORM,Spiral in shape
+SPIRIT,Ghost
+SPIRIT LEVEL,Instrument for determining horizontal
+SPIT,Land jutting out to sea
+SPIT,Saliva
+SPITTLE,Saliva
+SPITTOON,Cuspidor
+SPLASH,Sudden displacement of liquid
+SPLINE,Slat
+SPLINT,Wood tied to broken limb
+SPLIT,Lengthwise tear
+SPLODGE,Irregular stain
+SPLOTCH,Splodge
+SPOILER,Vane to direct airflow on car
+SPOKE,Bar joining rim to hub of wheel
+SPOKESHAVE,Tool for shaping wood
+SPONGE,Fibrous skeleton of marine animal
+SPONSON,Triangular plate joining paddle wheel to vessel
+SPOOK,Ghost
+SPOOL,Cylinder of wound yarn
+SPOON,Eating utensil
+SPOONBILL,Variety of bird
+SPOONBILL DUCK,Variety of duck; shoveler
+SPOONERISM,Transposition of sounds in adjacent words
+SPORIFEROUS,With spores
+SPORT,Competitive physical activity
+SPORTER,Sportsman or woman
+SPORTSMAN,Male engaged in sport
+SPORTSWOMAN,Female engaged in sport
+SPOT,Small round mark
+SPOTLIGHT,Lamp with a strong narrow beam
+SPOTBILL DUCK,Variety of duck
+SPOTTED,Patterned with spots
+SPOTTED OWL,Variety of bird
+SPOTTED SAWTOOTH,Variety of butterfly
+SPOTTY,Covered with spots
+SPOUT,Pouring tube of vessel
+SPOUT,Plume of water sent up by whale
+SPOUT HOLE,Spiracle
+SPOUTER,Spouting whale
+SPOUTING,Discharging water
+SPRAY,Fine particles of blown liquid
+SPRAY,Shoot
+SPREAD EAGLE,Heraldic device
+SPRIG,Shoot; spray
+SPRING,Coil of resilient metal
+SPRINGBOK,Variety of antelope
+SPRINGER,Springbok
+SPRINGER SPANIEL,Breed of dog
+SPRINGHARE,Variety of animal
+SPRINTER,Athlete who runs short distances
+SPRIT,Boom
+SPRITE,Ghost
+SPROCKET,Tooth on a sprocket wheel
+SPROCKET WHEEL,Toothed wheel
+SPROUT,Shoot
+SPUME,Froth; foam
+SPUR,Spiked wheel fitted to heel
+SPUR,Strut; small buttress
+SPUR-DOG,Variety of fish
+SPUR-LEATHER,Strap for attaching spur to foot
+SPUR-ROWEL,Spiked wheel of spur
+SPURGE HAWKMOTH,Variety of moth
+SPURT,Plume of water
+SPURTLE,Spurt
+SPUTNIK,Artificial orbiting satellite
+SPYGLASS,Telescope
+SQUAB,Sofa
+SQUALL,Storm
+SQUALOID,Shark
+SQUALUS,Shark
+SQUAMATE,With scales
+SQUAMIFEROUS,With scales
+SQUAMOSE,With scales
+SQUARE,Rectangle with equal sides
+SQUARE,Set square
+SQUARE KNOT,Type of knot
+SQUARE-RIGGED,With rectangular sails hung from yards
+SQUARE-RIGGER,Square-rigged vessel
+SQUARE-SAIL,Rectangular sail
+SQUID,Variety of sea creature; cuttlefish
+SQUIGGLE,Twisting line
+SQUINCH,Arch set across corner
+SQUINT,Inability of eyes to look in same direction
+SQUIRREL,Variety of animal
+SQUIRREL-FISH,Variety of fish
+SQUIRREL-MONKEY,Variety of animal
+SQUIRT,Eject a plume of water
+SQUIRTER,That which squirts
+SRI LANKA,Flag of southern Asian island republic
+STACK,Funnel
+STAFF,Shaft
+STAFF,Rod supporting legs of a chair
+STAFF,Lines on which music is written
+STAG,Male deer
+STAG BEETLE,Variety of insect
+STAGE,Platform for theatrical performances
+STAGE,Section of a rocket
+STAGE-PLAYER,Actor or actress
+STAGEHAND,Person who works behind the scenes in a theater
+STAGER,Actor or actress
+STAGESET,Theatrical scenery
+STAIN,Blemish
+STAINED GLASS,Decorative colored glass
+STAIR,One of a series of steps
+STAIR-HEAD,Top of a flight of stairs
+STAIRCASE,Flight of stairs
+STAIRWAY,Staircase
+STALACTITE,Hanging spike of rock
+STALAGMITE,Rising spike of rock
+STALK,Stem of a plant
+STALK,Chimney
+STALK,Stem of a wine glass
+STAMEN,Male organ of flower
+STAMINATE,With stamens
+STAMINIFEROUS,With stamens
+STAMP,Postage stamp
+STANCHION,Upright support
+STAND,Plinth support
+STANDING,Supported by legs
+STANDARD,Banner (British royal standard shown here)
+STANDARD LAMP,Lamp supported by pole; floor lamp
+STANDER,Person standing
+STANDING LADDER,Stepladder
+STANDING RIGGING,Fixed ship's rigging
+STANDING ROPES,Standing rigging
+STAPLE,Curved fixing device
+STAPLER,Machine for inserting staples
+STAR,Distant sun
+STAR,Symbol for a star
+STAR OF BETHLEHEM,Variety of plant
+STAR OF DAVID,Interwoven six-pointed star
+STAR-SPANGLED BANNER,Flag of the United States
+STARFISH,Variety of marine creature
+STARBOARD,Nautical term for right
+STARK-NAKED,Unclothed
+STARLING,Variety of bird
+STARS AND BARS,Flag of the Confederate States of America
+STARS AND STRIPES,Flag of the United States
+STARTER,Person about to start
+STARTING BLOCK,Sprinter's block for the feet
+STATIC,Not moving
+STATION WAGON,Car with a rear door; shooting brake
+STATIONARY,Not moving
+STATIVE,Stationary
+STATUE,Three-dimensional work of art
+STATUETTE,Small statue
+STAVE,Plank of a barrel
+STAVE,Strip of wood
+STAVE,Staff upon which music is written
+STAY,Rope supporting mast
+STAY,Prop
+STAYSAIL,Sail extended by a stay
+STEAM,Water vapor
+STEAM-BOAT,Boat powered by steam
+STEAM-ENGINE,Locomotive powered by steam
+STEAM-SHIP,Steam-boat
+STEAMER DUCK,Variety of duck
+STEED,Horse
+STEEL,Type of hard metal
+STEEPLE,Spire
+STEEPLE CUP,Style of ornamental cup
+STEERING WHEEL,Control wheel of a car
+STEEVE,Slope of a bowsprit
+STEGANOPOD,Snakebird
+STEGOSAURUS,Variety of dinosaur
+STEIN,Type of drinking vessel
+STEINBOK,Variety of antelope
+STELA,Sculpted slab
+STELLATE,Star-shaped
+STELLIFORM,Star-shaped
+STEM,Shank of a musical note
+STEM,Shank of a wine glass
+STEM,Bow of a ship
+STEM,Stalk of a plant
+STENCIL,Template for applying paint
+STENTOROPHONIC HORN,Megaphone
+STEP,Stair
+STEPLADDER,Folding ladder
+STEPS,Stepladder
+STEREOGRAPH,Slide with stereoscopic image
+STEREOSCOPE,Instrument for viewing stereographic images
+STERN,Back end of a vessel
+STERNEBRA,Part of the sternum
+STERNUM,Breastbone
+STETHOSCOPE,Instrument for listening to bodily sounds
+STETSON,Style of hat
+STEVEDORE KNOT,Type of knot
+STICK,Rod for beating a drum
+STICK INSECT,Variety of insect
+STICKER,Spear
+STICKER,Adhesive label
+STICKLEBACK,Variety of fish
+STIFF,Rigid
+STIFLE,Hind knee of a dog
+STIGMA,Part of the head of a flower
+STILETTO,Narrow-bladed knife
+STILETTO HEEL,Thin heel on woman's shoe
+STILL,Stationary
+STILL LIFE,Painting of inanimate objects
+STILT,Pole for walking on
+STILT,Variety of bird
+STING,Sharp organ of some creatures
+STINKBUG,Variety of insect
+STIPE,Stalk of fungus
+STIPPLE,Drawing using dots as shading
+STIRRUP,Foot support hung from a saddle
+STIRRUP IRON,Metal part of a stirrup
+STIRRUP LEATHER,Leather part of a stirrup
+STITCH,Loop made through a surface with a threaded needle
+STITCHERY,Stitching
+STITCHING,Series of stitches
+STOAT,Variety of animal
+STOCK,Goods for sale
+STOCK,Crossbar of an anchor
+STOCK,Handle of a pistol
+STOCK,Livestock
+STOCKING,Tight covering for the leg
+STOMACH,Abdomen
+STONE,Hard mineral
+STONE,Gem
+STONE,Fourteen pounds weight
+STONECHAT,Variety of bird
+STOOL,Low backless seat
+STOP,Indentation in dog's face
+STOP,Cease moving (the signal indicates stop)
+STOPWATCH,Watch that can be stopped and started
+STORE,Shop
+STOREKEEPER,Person in charge of a store
+STOREY,Floor of a building
+STORK,Variety of bird
+STORM,Tempest
+STORM CLOUD,Type of cloud accompanying storm
+STOVE,Heating apparatus
+STOVEPIPE,Style of hat
+STRABISMUS,Squint
+STRADDLE,Plant one leg each side
+STRAIGHT,Not curved or bent
+STRAND,Single thread
+STRAND,Shore
+STRAP,Strip of leather used as a fastening
+STRAW,Drinking tube
+STRAWBERRY,Variety of fruit
+STREAMER,Type of long flag
+STREAMLINED,Aerodynamically efficient shape
+STREBER,Variety of fish
+STRETCHER,Brick laid lengthwise
+STRETCHER,Rod separating chair legs
+STRETCHING COURSE,Line of bricks laid lengthwise
+STRETCHING BOND,Brickwork made up of stretchers
+STRIG,Groove
+STRIG,Stalk
+STRING,Thin cord
+STRING,Stretched wire of a musical instrument
+STRINGED,Fitted with strings
+STRIPE,Narrow band of color
+STRIPED,Patterned with stripes
+STRIPED OWL,Variety of bird
+STRIPED SKUNK,Variety of animal
+STRIPPED,Without clothes
+STRIPPER,Striptease artist
+STRIPTEASE,Removing clothes as entertainment
+STROKE,Bolt of lightning
+STROKE,Arm movement in swimming
+STRONTIUM,Element; atomic number 38
+STRUCTURE,Building
+STRUNG,Fitted with strings
+STRUT,Support
+STUB,Worn-down pencil
+STUD,Pin with flattened head
+STUDDED,Fitted with studs
+STUDDING SAIL,Type of extra sail
+STUDY,Sketch
+STUFF,Matter
+STUFFED,Filled with stuffing
+STUFFING,Filling
+STUMP,Stub
+STUMPS,Upright rods used in the game of cricket
+STURGEON,Variety of fish
+STURIONIAN,Sturgeon
+STYLE,Gnomon
+STYLE,Fashion
+STYLE,Support of stigma
+STYLET,Stiletto
+STYLOGRAPH,Type of pen
+STYLOMMATOPHOROUS,Like a snail
+STYLUS,Gnomon
+SUBAERIAL,In the open air
+SUBDIVISION,Part formed by dividing whole
+SUBDOMINANT,Fourth tone of musical scale
+SUBJECT,Thing painted
+SUBMARINE,Underwater vessel
+SUBMAXILLA,Jawbone
+SUBMEDIANT,Sixth tone of musical scale
+SUBMERGED,Beneath the water
+SUBMERSED,Submerged
+SUBMERSIBLE,Submarine
+SUBSCRIPT,Signature
+SUBSCRIPTION,Signature
+SUBSTANCE,Matter
+SUBTERRANEAN,Underground
+SUBTERRESTRIAL,Underground
+SUCCESSION,Series
+SUCKLE,Feed young with milk
+SUDAN,Flag of northern African republic
+SUDS,Soap lather
+SUIT,Spades clubs hearts and diamonds
+SUIT,Set of matching garments
+SUITCASE,Container for clothes
+SULPHUR,Element; atomic number 16
+SULPHUR TUFT,Variety of fungus
+SULTAN TIT,Variety of bird
+SUM,Simple arithmetical calculation
+SUMATRA BARB,Variety of fish
+SUMEN,Sow's udder
+SUMMIT,Peak of a mountain
+SUN,Luminous body at center of the solar system
+SUN,Astrological symbol for the sun
+SUN DISC,Type of ancient Egyptian amulet
+SUN PARAKEET,Variety of bird
+SUN-TAN,Darkening of the skin due to exposure to sun
+SUN-BATHER,Person acquiring suntan
+SUN-BATHING,Acquiring a suntan
+SUN-DIAL,Device for telling the time by the sun
+SUN-FISH,Variety of fish
+SUN-GLASSES,Spectacles with darkened lenses
+SUN-HAT,Style of large hat
+SUN-HELMET,Style of sunhat
+SUN-UP,Rising sun
+SUNBEAM,Shaft of sunlight
+SUNBIRD,Variety of bird
+SUNBURNT,Suntanned
+SUNDAE,Ice cream with fruit and syrup
+SUNDAY,Astrological symbol for Sunday
+SUNDERED,Broken
+SUNDOWN,Sunset
+SUNFLOWER,Variety of flowering plant
+SUNI,Variety of antelope
+SUNLIGHT,Bright daylight; light from the sun
+SUNLIT,Lit by the sun
+SUNNY,Lit by the sun
+SUNRISE,First appearance of the sun
+SUNROOF,Opening roof in a car; moonroof
+SUNSET,The end of the day
+SUNSHADE,Parasol
+SUNSHINE,Sunlight
+SUPERFICIES,Outer surface of the body
+SUPERNATANT,Swimming on the surface
+SUPERNATURAL,Beyond the laws of nature
+SUPERPOWERS,United States and Soviet Union
+SUPERSONIC,Capable of traveling faster than sound
+SUPERSTRUCTURE,Part of a ship above the deck
+SUPERTERRANEAN,Above ground
+SUPERTONIC,Second tone in musical scale
+SUPINE,Lying down on the back
+SUPPORT,Prop
+SUPPORT,Base
+SUPPORTER,Figures on either side of coat of arms
+SUPRAMARINE,Above the sea
+SUPRANATURAL,Supernatural
+SURBASE,Upper part of the base of a column
+SURF,Wave breaking on shore
+SURF-BOARD,Device for riding waves
+SURFACE,Outside of something
+SURFACE,Top of a body of water
+SURFACE SHIP,Ship that travels on the surface
+SURFER,Person using a surfboard
+SURFING,Using a surfboard
+SURGEONFISH,Variety of fish
+SURGEON'S KNOT,Type of knot
+SURICATE,Variety of animal
+SURINAME,Flag of South American country
+SURNAME,Last name
+SURREALIST,Fantastic artist (Salvador Dali)
+SURRENDER,Flag of submission
+SURVIVOR,Person remaining alive after calamity
+SUSPENDED,Hung up
+SUSPENDER BELT,Belt to hold up stockings; garter belt
+SUSPENDERS,Straps to hold up trousers; braces
+SUSPENDERS,Straps to hold up stockings
+SUSTENANCE,Food
+SUSTENTATION,Sustenance
+SUTURE,Stitched seam
+SWAG,Ornament representing sagging cloth; festoon
+SWALLOW,Variety of bird
+SWALLOW-TAILED FLYCATCHER,Variety of bird
+SWALLOWTAIL,Type of butterfly
+SWALLOWTAIL,Type of banner
+SWAMPHEN,Variety of bird
+SWAN,Variety of bird
+SWAN PAN,Abacus
+SWASH,Fancy letterform
+SWASTIKA,Type of hooked cross
+SWAZILAND,Flag of southern African country
+SWEATBAND,Headband to absorb perspiration
+SWEATER,Woolen upper garment
+SWEDEN,Flag of Scandinavian country
+SWEETLIPS,Variety of fish
+SWELL,Waves
+SWEPT-BACK,Type of wing design
+SWIFT,Variety of bird
+SWIM FIN,Swimming aid attached to foot; flipper
+SWIM-SUIT,Bathing costume
+SWIMMER,Person engaged in swimming
+SWIMMERET,Propulsion fins of shrimp
+SWIMMING,Propelling oneself through water
+SWINE,Pig
+SWINHOE'S PHEASANT,Variety of bird
+SWITCH,On/off control
+SWITCH,Electrical symbol for switch
+SWITZERLAND,Flag of western European country
+SWORD,Long-bladed weapon
+SWORD KNOT,Ornamental knot attached to sword
+SWORD-ARM,Arm that holds a sword
+SWORD-BELT,Belt from which sword is hung
+SWORD-BLADE,Blade of a sword
+SWORD-TAIL,Variety of fish
+SWORDER,Swordsman
+SWORDFISH,Variety of fish
+SWORDPLAY,Fencing
+SWORDPLAYER,Fencer
+SWORDSMAN,Fencer
+SYCAMORE,Variety of tree
+SYLLABLE,One part of the sound of a word
+SYMBOL,Sign representing something else
+SYMMETRICAL,Both sides exactly alike
+SYNDACTYL,Webbed foot
+SYRIA,Flag of southwest Asian republic
+SYRINGE,Tube with piston for injecting liquid
+SYRINX,Panpipesa

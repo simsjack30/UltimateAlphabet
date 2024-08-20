@@ -1,10 +1,30 @@
 <script lang="ts">
 	import { guessedItemsStore } from '../store';
+	import { radioSelectionStore } from '../store2';
 	import { get } from 'svelte/store';
 	import PocketBase from 'pocketbase';
 	import { onMount } from 'svelte';
 
 	const pb = new PocketBase('https://pocketbase-production-c5bc.up.railway.app');
+
+	let radio = get(radioSelectionStore);
+
+	function getCollectionName() {
+		return radio === 0 ? 'Items' : 'Items2';
+	}
+
+	function getPlaysCollectionName() {
+		return radio === 0 ? 'Plays' : 'Plays2';
+	}
+
+	const playRecordIds: any = {
+		0: 'ckzbth2g0egxm4u',
+		1: 'kyyje3386d1ejth'
+	};
+
+	function getPlayRecordId() {
+		return playRecordIds[radio];
+	}
 
 	let guessedItems = get(guessedItemsStore);
 
@@ -12,13 +32,11 @@
 	let numberOfPlays;
 
 	async function loadItems() {
-		// Fetch all items
-		allItems = await pb.collection('Items').getFullList();
+		allItems = await pb.collection(getCollectionName()).getFullList();
 
-		// Sort items by the number of times guessed (descending order)
 		allItems.sort((a, b) => b.guessed - a.guessed);
 
-		const playsRecord = await pb.collection('Plays').getOne('ckzbth2g0egxm4u');
+		const playsRecord = await pb.collection(getPlaysCollectionName()).getOne(getPlayRecordId());
 		numberOfPlays = playsRecord.count;
 	}
 

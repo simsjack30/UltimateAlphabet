@@ -1,6 +1,11 @@
 <script lang="ts">
 	import PocketBase from 'pocketbase';
+	const pb = new PocketBase('https://pocketbase-production-c5bc.up.railway.app');
+
+	import { RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
+
 	import { guessedItemsStore } from './store.js';
+	import { radioSelectionStore } from './store2.js';
 	import { get } from 'svelte/store';
 
 	import { Check, SearchX, SearchCheck, Search } from 'lucide-svelte';
@@ -11,12 +16,11 @@
 
 	import { RangeSlider } from '@skeletonlabs/skeleton';
 
-	const pb = new PocketBase('https://pocketbase-production-c5bc.up.railway.app');
 	export let data;
 
-	let records = [...data.records];
+	$: records = radio === 0 ? [...data.records] : [...data.records2];
 	let searchTerm = '';
-	let guessedItems = [];
+	let guessedItems: any = [];
 	let game = true;
 
 	$: guessedItemsStore.set(guessedItems);
@@ -34,7 +38,9 @@
 			if (game) {
 				game = false;
 				updateGame();
-				startTimer();
+				if (radio === 0) {
+					startTimer();
+				}
 			}
 			for (let record of matchedRecords) {
 				updateGuess(record);
@@ -45,18 +51,28 @@
 		}
 	}
 
+	const playRecordIds: any = {
+		0: 'ckzbth2g0egxm4u',
+		1: 'kyyje3386d1ejth'
+	};
+
+	function getPlayRecordId() {
+		return playRecordIds[radio];
+	}
+
 	async function updateGame() {
 		const plays = await getPlays();
-		await pb.collection('Plays').update('ckzbth2g0egxm4u', { count: plays + 1 });
+		await pb.collection(getPlaysCollectionName()).update(getPlayRecordId(), { count: plays + 1 });
 	}
 
 	async function getPlays() {
-		const plays = await pb.collection('Plays').getOne('ckzbth2g0egxm4u');
+		const plays = await pb.collection(getPlaysCollectionName()).getOne(getPlayRecordId());
 		return plays.count;
 	}
 
 	async function updateGuess(record: any) {
-		await pb.collection('Items').update(record.id, { guessed: record.guessed + 1 });
+		const collectionName = radio === 0 ? 'Items' : 'Items2';
+		await pb.collection(getCollectionName()).update(record.id, { guessed: record.guessed + 1 });
 	}
 
 	function handleKeyDown(event: any) {
@@ -121,6 +137,7 @@
 	let timerInterval: any;
 
 	onMount(() => {
+		radio = 0;
 		guessedItemsStore.set([]);
 		guessedItems = get(guessedItemsStore);
 		timeRemaining = 5 * 60; // 5 * 60
@@ -180,8 +197,8 @@
 	}
 
 	let minValue = 300;
-	let maxValue = 1200;
-	let stepValue = 5;
+	let maxValue = 1400;
+	let stepValue = 10;
 
 	function handleWheel(event) {
 		event.preventDefault();
@@ -191,6 +208,17 @@
 		} else {
 			value = Math.max(value - 10 * stepValue, minValue);
 		}
+	}
+
+	let radio = get(radioSelectionStore);
+	$: radioSelectionStore.set(radio);
+
+	function getCollectionName() {
+		return radio === 0 ? 'Items' : 'Items2';
+	}
+
+	function getPlaysCollectionName() {
+		return radio === 0 ? 'Plays' : 'Plays2';
 	}
 </script>
 
@@ -215,7 +243,7 @@
 	<div class="p-2 md:p-4 h-auto md:h-full" on:click={handleClick}>
 		<div class="md:h-full max-h-full image-container">
 			<img
-				src="wilks2.jpg"
+				src={radio === 0 ? 'wilks2.jpg' : 'wilks4.jpg'}
 				alt=""
 				class="rounded-lg max-h-full w-auto object-top object-contain shadow-lg {mag
 					? 'cursor-none'
@@ -276,27 +304,45 @@
 			<button on:click={handleGuess} class="btn-icon variant-filled-tertiary shadow-xl rounded-md"
 				><Check /></button
 			>
+			{#if game}
+				<RadioGroup rounded="rounded-md" background="bg-error-500">
+					<RadioItem bind:group={radio} name="justify" value={0}><strong>J</strong></RadioItem>
+					<RadioItem bind:group={radio} name="justify" value={1}><strong>S</strong></RadioItem>
+				</RadioGroup>
+			{/if}
 		</div>
 		{#if guessedItems.length === 0}
 			<h5 class="w-5/6 h5 md:w-1/2 lg:w-96">
 				<span>
 					Find as many words in the picture that start with
 					<span />
-					<span class="text-error-300"> The Letter J </span>
+					{#if radio === 0}
+						<span class="text-error-300"> The Letter J </span>
+					{:else}
+						<span class="text-error-300"> The Letter S </span>
+					{/if}
 					<span>
 						. Type your answers in the box and submit by pressing Enter or the checkmark button.
 					</span>
 				</span>
 			</h5>
-			<h5 class="w-5/6 h5 md:w-1/2 lg:w-96">
-				You can choose to end the game early or continue guessing until the time runs out.
-			</h5>
+			{#if radio === 0}
+				<h5 class="w-5/6 h5 md:w-1/2 lg:w-96">
+					You can choose to end the game early or continue guessing until the time runs out.
+				</h5>
+			{:else}
+				<h5 class="w-5/6 h5 md:w-1/2 lg:w-96">
+					The letter S has no time limit. Press done when you're ready to submit your guesses.
+				</h5>
+			{/if}
 		{:else}
 			<div class="flex flex-row gap-2 md:gap-4">
 				<button class="btn variant-filled-error rounded-md shadow-xl" on:click={openModal}
 					>DONE</button
 				>
-				<h2 class="h2">{minutes}:{seconds < 10 ? '0' : ''}{seconds}</h2>
+				{#if radio === 0}
+					<h2 class="h2">{minutes}:{seconds < 10 ? '0' : ''}{seconds}</h2>
+				{/if}
 			</div>
 		{/if}
 		<div class="flex justify-start items-start">
