@@ -3,7 +3,9 @@
 This is a game based on Mike Wilks' book *The Ultimate Alphabet*. Currently only available in print, I wanted to bring this book to life on the web. This digital version allows for stat tracking between plays among all players, something that wouldn’t be possible in the print version.
 
 The project is built with Svelte, SvelteKit, PocketBase, Skeleton UI, hosted on Railway, and deployed on Vercel.
+Visit the live site [here](https://ultimate-alphabet.vercel.app/)!
 
+---
 ### How to Build It Yourself
 
 1. **Clone the Repository**  
@@ -20,9 +22,6 @@ The project is built with Svelte, SvelteKit, PocketBase, Skeleton UI, hosted on 
    Start the development server with:  
    `npm run dev`
 
-### If You Like This, Check Out My Other Projects
-
-Explore my other projects on [GitHub](https://github.com/simsjack30)
-
 ---
 Feel free to customize any part of this template!
+Explore my other projects on [GitHub](https://github.com/simsjack30)
